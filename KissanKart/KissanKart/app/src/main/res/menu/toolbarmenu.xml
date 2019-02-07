@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/btncart_menu" android:title="Cart" android:icon="@mipmap/cart">
+
+    </item>
+    <item android:id="@+id/btnchangepassword_menu" android:title="change password" android:icon="@mipmap/password">
+
+    </item>
+    <item android:id="@+id/btnuserprofile_menu" android:title="My Account" ></item>
+    <item android:id="@+id/btnorderhistory_menu" android:title="My Orders" ></item>
+    <item android:id="@+id/btnlogout_menu" android:title="logout" android:icon="@mipmap/ic_launcher">
+
+    </item>
+
+</menu>

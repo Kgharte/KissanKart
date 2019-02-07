@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:paddingTop="10dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/orderimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        app:srcCompat="@drawable/backgrnd" />
+
+        <TextView
+            android:id="@+id/orderid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/orderimg"
+            android:text="Order Id"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/orderdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/orderid"
+            android:layout_below="@+id/orderid"
+            android:text="Date"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"  />
+        <TextView
+            android:id="@+id/orderamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/orderdate"
+            android:layout_below="@+id/orderdate"
+            android:text="Amount"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/orderamount"
+            android:layout_below="@+id/orderamount"
+            android:text="Deliver to :"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/ordercancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/fullname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="11dp"
+            android:src="@drawable/delete" />
+
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

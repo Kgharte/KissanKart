@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/backgrnd"
+    tools:context="com.example.meet.kissankart.BuyerFp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="cursive"
+            android:text="Forgot Password"
+            android:textColor="#007004"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:fontFamily="cursive"
+            android:paddingLeft="20dp"
+            android:text=" Enter your Email ID and we will send OTP to reset Password"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#007004"
+            android:textSize="27dp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/fpemailbuyer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:padding="10dp"
+                        android:textColorHint="#007004"
+                        android:drawableRight="@drawable/emailicon"
+                        android:hint="  Email ID"
+                        android:inputType="textEmailAddress" />
+
+                   <Button
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/btnsendnow"
+                       android:text="Send"
+                       android:textSize="20sp"
+                       android:layout_marginBottom="8dp"
+                       android:layout_marginTop="24dp"
+                       android:layout_marginStart="5dp"
+                       android:layout_marginEnd="5dp"
+                       android:textColor="#ffffff"
+                       android:background="@drawable/mybutton"
+
+                       />
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

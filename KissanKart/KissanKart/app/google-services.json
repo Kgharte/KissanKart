@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "912779484091",
+    "firebase_url": "https://kissankart-42106.firebaseio.com",
+    "project_id": "kissankart-42106",
+    "storage_bucket": "kissankart-42106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912779484091:android:4b744dfbba859c7c",
+        "android_client_info": {
+          "package_name": "com.example.meet.kissankart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912779484091-l7iaqq4n9sth2ug28pipvt3si8o9eeb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLfvygvx7NICz57p0fTZZPz1UYc6rppG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

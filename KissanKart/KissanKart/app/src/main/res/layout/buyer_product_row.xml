@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgcartphoto"
+        android:layout_margin="5dp"
+        android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/lblproductbuyer"
+        android:text="Product title" android:layout_gravity="bottom"
+        android:textSize="28sp"
+        android:background="#ffffff" android:alpha="0.50"  android:layout_margin="5dp" />
+
+</FrameLayout>

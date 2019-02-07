@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greyback"
+    tools:context="com.example.meet.kissankart.CartContainer">
+
+    <LinearLayout
+        android:layout_gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent" android:gravity="right" android:textSize="24sp" android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" android:id="@+id/lbltotal" android:text="total cart amount = 0" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/clist"
+            android:columnWidth="120dp"
+            android:numColumns="auto_fit"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:layout_gravity="center_horizontal">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="bottom" android:text="confirm order" android:id="@+id/btnconfirm" />
+</FrameLayout>

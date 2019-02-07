@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greyback"
+    tools:context="com.example.meet.kissankart.ProductDetailActivity">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp">
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgproduct2"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lbltitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000"
+                android:text="Title"
+                android:textSize="28sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        app:cardCornerRadius="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:id="@+id/lbldescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:text="Description:"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/lblprice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:textColor="#000000"
+                android:text="Price:"
+                android:textSize="24sp"/>
+            <TextView
+                android:id="@+id/lblleft2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="111dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="Quantity :" />
+            <TextView
+                android:id="@+id/lblweight2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="142dp"
+                android:textColor="#000000"
+                android:text="TextView"
+                android:textSize="18sp"
+                tools:text="Weight :" />
+            <TextView
+                android:id="@+id/lblstatus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="172dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="#000000"
+                android:text="TextView"
+                android:textSize="18sp"
+                tools:text="Stock Available Or Not?" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <Button
+        android:id="@+id/btnaddtocart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/mybutton"
+        android:text="Add to cart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+
+
+</FrameLayout>

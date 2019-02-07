@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/backgrnd"
+    tools:context="com.example.meet.kissankart.RegisterSeller">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:text="Buyer Registration"
+        android:layout_marginTop="5dp"
+        android:fontFamily="cursive"
+
+        android:layout_marginLeft="35dp"
+        android:textColor="#538A31"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <EditText
+                android:id="@+id/buyername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableRight="@drawable/name"
+                android:hint="Name"
+                android:textColorHint="#538A31" />
+
+
+            <EditText
+                android:id="@+id/buyeremailregistration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/emailicon"
+                android:ems="10"
+                android:hint="  Email ID"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#538A31" />
+
+            <EditText
+                android:id="@+id/buyermno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/phone"
+                android:ems="10"
+                android:hint="  +91 Mobile No"
+                android:inputType="phone"
+                android:textColorHint="#538A31" />
+
+            <EditText
+                android:id="@+id/buyerpasswordregistration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/greenpadlock"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                android:textColorHint="#538A31" />
+
+
+            <Button
+                android:id="@+id/btnregisterbuyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/mybutton"
+                android:text="Register" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblalreadyregbuyer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="cursive"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:text="Already Registered? Login Here"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

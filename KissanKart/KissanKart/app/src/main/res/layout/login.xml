@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/backgrround"
+    tools:context="com.example.meet.kissankart.LoginActivity">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@mipmap/mail"
+                    android:hint="  Email ID"
+                    android:textColorHint="#538A28"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/password"
+                    android:hint=" Password"
+                    android:textColorHint="#538A28"
+                    android:inputType="textPassword" />
+
+                <ImageButton
+                    android:id="@+id/sellerloginbtn"
+                    android:layout_width="270dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/loginbuttn" />
+
+
+            </LinearLayout>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/sellergotosu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="          New to KissanKart? Sign Up here"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#538A28"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/sellerfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="             Forgot Password? Click Here"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#538A28"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+</LinearLayout>
